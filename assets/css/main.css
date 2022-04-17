@@ -4817,13 +4817,13 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     content: "\21E8  Android Developer";
   }
   60% {
-    content: "\21E8  Web Developer";
+    content: "\21E8  Problem Solver";
   }
   80% {
-    content: "\21E8  Blockchain Developer";
+    content: "\21E8  Backend developer";
   }
   100% {
-    content: "\21E8  Blockchain Enthusiast";
+    content: "\21E8  Android Developer";
   }
 }
 #project {
