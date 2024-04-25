@@ -3972,16 +3972,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -webkit-flex-grow: 0;
   -ms-flex-grow: 0;
   flex-grow: 0;
-}
-
-#main > .posts > * {
-  width: 50%;
-}
-
-#main > .posts > * {
   padding: 4rem;
   width: 50%;
 }
+
+
 
 #main > .posts > article {
   border-color: #eeeeee;
@@ -3992,6 +3987,18 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-bottom-width: 2px;
   margin: auto;
 }
+
+#main > .posts > #full-width {
+  width: 100%;
+  align-items: start;
+}
+#main > .posts > #full-width > ul > li {
+  text-align: start;
+}
+/* 
+#main > .posts > #full-width > ul {
+  
+} */
 
 #main > .posts > article > :last-child {
   margin-bottom: 0;
@@ -4814,12 +4821,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 @keyframes skills {
   0% {
-    content: "\21E8  Android Developer";
+    content: "\21E8  Frontend developer";
   }
   60% {
-    content: "\21E8  Problem Solver";
-  }
-  80% {
     content: "\21E8  Backend developer";
   }
   100% {
