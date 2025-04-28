@@ -4793,12 +4793,12 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   }
 
   #Image1 img {
-    height: 20px;
+    height: 40px;
     margin: 10px;
   }
 
   #Image2 img {
-    height: 20px;
+    height: 40px;
     margin: 10px;
   }
 
@@ -4818,12 +4818,12 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   }
 
   #Image1 img {
-    height: 20px;
+    height: 30px;
     margin: 10px;
   }
 
   #Image2 img {
-    height: 20px;
+    height: 30px;
     margin: 10px;
   }
 
