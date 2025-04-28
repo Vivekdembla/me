@@ -4786,12 +4786,6 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   color: #212931;
 }
 
-@media screen and (max-width: 736px) {
-  #navPanel .close {
-    height: 4rem;
-    line-height: 4rem;
-  }
-}
 
 @media screen and (max-width: 980px) {
   #navPanel {
@@ -4802,6 +4796,46 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 @media screen and (max-width: 736px) {
   #navPanel {
     padding: 2.5rem 1.75rem;
+  }
+
+  #navPanel .close {
+    height: 4rem;
+    line-height: 4rem;
+  }
+
+  #Image1 img {
+    height: 30px;
+    margin: 10px;
+  }
+
+  #Image2 img {
+    height: 30px;
+    margin: 10px;
+  }
+
+  .underskill span {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 736px) {
+  #navPanel {
+    padding: 2.5rem 1.75rem;
+  }
+
+  #navPanel .close {
+    height: 4rem;
+    line-height: 4rem;
+  }
+
+  #Image1 img {
+    height: 50px;
+    margin: 20px;
+  }
+
+  #Image2 img {
+    height: 50px;
+    margin: 20px;
   }
 }
 
@@ -4860,16 +4894,6 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-#Image1 img {
-  height: 50px;
-  margin: 20px;
-}
-
-#Image2 img {
-  height: 50px;
-  margin: 20px;
 }
 
 .imagecenter {
