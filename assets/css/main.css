@@ -4787,9 +4787,23 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) and (min-width: 736px) {
   #navPanel {
     display: block;
+  }
+
+  #Image1 img {
+    height: 20px;
+    margin: 10px;
+  }
+
+  #Image2 img {
+    height: 20px;
+    margin: 10px;
+  }
+
+  .underskill span {
+    font-size: 10px;
   }
 }
 
@@ -4804,12 +4818,12 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   }
 
   #Image1 img {
-    height: 30px;
+    height: 20px;
     margin: 10px;
   }
 
   #Image2 img {
-    height: 30px;
+    height: 20px;
     margin: 10px;
   }
 
@@ -4818,7 +4832,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   }
 }
 
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 980px) {
   #navPanel {
     padding: 2.5rem 1.75rem;
   }
